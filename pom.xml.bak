@@ -46,7 +46,7 @@
                 <resources>
                     <resource>
                         <!-- <targetPath>/</targetPath> -->
-                        <!-- ${project.b1uild.directory},项目构建输出目录，默认为target/ -->
+                        <!-- ${project.build.directory},项目构建输出目录，默认为target/ -->
                         <directory>${project.build.directory}</directory>
                         <!-- ${project.build.directory},打包出来的jar名称，默认为${project.artifactId}-${project.version} -->
                         <include>${project.build.finalName}.jar</include>
